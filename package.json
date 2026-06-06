@@ -1,0 +1,27 @@
+{
+  "name": "YOUR-PACKAGE-NAME",
+  "description": "YOUR-DESCRIPTION",
+  "author": "Mason L'Etoile",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starlet-web-engine/YOUR-REPO-NAME"
+  },
+  "keywords": ["starweb"],
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "~6.0.2"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "tsc -p tsconfig.build.json"
+  },
+  "files": ["dist", "src"],
+  "exports": {
+    "./*.js": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js"
+    }
+  }
+}
