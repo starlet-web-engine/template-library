@@ -1,4 +1,4 @@
-# YOUR-PACKAGE-NAME
+# YOUR-LIBRARY-NAME
 
 YOUR-DESCRIPTION
 
@@ -14,7 +14,7 @@ YOUR-DESCRIPTION
 
 ## Installation
 ```bash
-npm install github:starlet-web-engine/YOUR-REPO-NAME
+npm install github:starweb-libs/YOUR-LIBRARY-NAME
 ```
 
 ## License
